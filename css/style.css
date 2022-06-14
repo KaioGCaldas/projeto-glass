@@ -27,10 +27,25 @@ p {
     background-color: #DDDDDD;
     padding: 10px;
     margin: 2px;
+    transition: background-color 0.7s;
+}
+
+#menu li:hover {
+    background-color: #606060;
 }
 
 #menu h1 {
     display: none;
+}
+
+#menu a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.7s;
+}
+
+#menu a:hover {
+    color: #DDDDDD;
 }
 
 .foto-legenda {
@@ -54,9 +69,9 @@ p {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    transition: 1s;
 }
 
 .foto-legenda figcaption:hover {
     opacity: 1;
-    transition: 1s;
 }
