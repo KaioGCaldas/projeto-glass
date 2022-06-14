@@ -1,8 +1,22 @@
 @charset "UTF-8";
 
 body {
-    background-color: #FFFFFF;
+    background-color: #DDDDDD;
     color: #000000;
+}
+
+#interface {
+    width: 80%;
+    background-color: #FFFFFF;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px #00000088;
+    padding: 10px;
+}
+
+#icone {
+    position: absolute;
+    left: 81%;
+    top: 50px;
 }
 
 p {
@@ -19,7 +33,7 @@ p {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 56%;
 }
 
 #menu li {
