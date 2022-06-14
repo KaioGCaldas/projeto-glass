@@ -10,6 +10,29 @@ p {
     text-indent: 50px;
 }
 
+#menu {
+    display: block;
+}
+
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: #DDDDDD;
+    padding: 10px;
+    margin: 2px;
+}
+
+#menu h1 {
+    display: none;
+}
+
 .foto-legenda {
     border: 8px solid #FFFFFF;
     box-shadow: 1px 1px 4px #000000;
