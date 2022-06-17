@@ -128,6 +128,17 @@ section {
     padding-bottom: 15px;
 }
 
+#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+
 aside {
     display: block;
     width: 43%;
