@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    border-bottom: 1px #606060 solid;
+    border-bottom: 1px solid #606060;
     height: 150px;
     background: url('../imgs/glass-logo-peq.jpg') no-repeat 0px 80px;
 }
@@ -117,4 +117,28 @@ p {
 
 .foto-legenda figcaption:hover {
     opacity: 1;
+}
+
+section {
+    display: block;
+    width: 53%;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+aside {
+    display: block;
+    width: 43%;
+    float: right;
+}
+
+footer {
+    border-top: 1px solid #606060;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
 }
