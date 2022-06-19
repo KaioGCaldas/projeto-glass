@@ -134,9 +134,35 @@ section {
     margin: auto;
 }
 
+#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
 #tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
+}
+
+.cesq {
+    color: #FFFFFF;
+    background-color: #606060;
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.cdir {
+    background-color: #CECECE;
 }
 
 aside {
