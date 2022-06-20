@@ -8,6 +8,7 @@
 body {
     background-color: #DDDDDD;
     color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #interface {
@@ -18,13 +19,13 @@ body {
     padding: 10px;
 }
 
-header {
+#cabecalho {
     border-bottom: 1px solid #606060;
     height: 150px;
     background: url('../imgs/glass-logo-peq.jpg') no-repeat 0px 80px;
 }
 
-header h1 {
+#cabecalho h1 {
     font-family: 'Bubblegum', sans-serif;
     font-size: 30pt;
     color: #606060;
@@ -33,7 +34,7 @@ header h1 {
     margin-bottom: 0px;
 }
 
-header h2 {
+#cabecalho h2 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     color: #888888;
@@ -51,6 +52,16 @@ header h2 {
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #menu {
@@ -91,6 +102,32 @@ p {
     color: #DDDDDD;
 }
 
+#cabecalho-artigo h1 {
+    font-family: 'Bubblegum', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cabecalho-artigo h2 {
+    font-size: 12pt !important;
+    color: #CECECE !important;
+    background-color: #FFFFFF !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #606060;
+    margin-top: 0px;
+}
+
+.direita {
+    text-align: right;
+}
+
 .foto-legenda {
     border: 8px solid #FFFFFF;
     box-shadow: 1px 1px 4px #000000;
@@ -126,6 +163,14 @@ section {
     border-right: 1px solid #606060;
     padding-right: 15px;
     padding-bottom: 15px;
+}
+
+#noticia-principal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #DDDDDD;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 #tabelaspec {
@@ -169,6 +214,24 @@ aside {
     display: block;
     width: 43%;
     float: right;
+    background-color: #DDDDDD;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px #00000088;
+}
+
+aside h1 {
+    font-family: 'Bubblegum', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #FFFFFF;
+    padding: 5px;
 }
 
 footer {
