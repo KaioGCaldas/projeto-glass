@@ -156,7 +156,7 @@ a:hover {
     opacity: 1;
 }
 
-section {
+#corpo {
     display: block;
     width: 53%;
     float: left;
