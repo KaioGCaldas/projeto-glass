@@ -39,7 +39,7 @@
                         <h3 class="direita">Atualizado em 01/Maio/2013</h3>
                     </header>
                     
-                    <form method="post" id="fContato">
+                    <form method="post" id="fContato" oninput="calcTotal()">
                         <fieldset id="usuario">
                             <legend>Identificação do Usuário</legend>
                                 <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" /></p>
@@ -109,14 +109,15 @@
                         
                         <fieldset id="pedido">
                             <legend>Quero um Google Glass</legend>
-                                Gostaria de adquirir um Google Glass quando disponível
-                                Cor:
-                                Quantidade:
-                                Preço Total: R$
+                                <p><input type="checkbox" name="tPed" id="cPed" />
+                                    <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                                <p><label for="cCor">Cor: <input type="color" name="tCor" id="cCor" value="#EEEEEE" /></label></p>
+                                <p><label for="cQtd">Quantidade: <input type="number" name="tQtd" id="cQtd" min="0" max="5" /></label></p>
+                                <p><label for="cTot">Preço Total: R$ <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly /></label></p>
                         </fieldset>
                         
                         
-                        [BOTÃO ENVIAR]
+                        <input type="image" src="imgs/botao-enviar.png" />
                     </form>
                 </article>
             </section>
