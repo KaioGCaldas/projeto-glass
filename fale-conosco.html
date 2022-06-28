@@ -39,7 +39,7 @@
                         <h3 class="direita">Atualizado em 01/Maio/2013</h3>
                     </header>
                     
-                    <form>
+                    <form method="post" id="fContato">
                         <fieldset id="usuario">
                             <legend>Identificação do Usuário</legend>
                                 <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" /></p>
@@ -56,15 +56,55 @@
                         <fieldset id="endereco">
                             <legend>Endereço do Usuário</legend>
                                 <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Endereço" /></p>
-                                <p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="1" max="1999" /></p>
-                                Estado:
-                                Cidade:
+                                <p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="1" max="1999" placeholder="Número" /></p>
+                                <p><label for="cEst">Estado:
+                                    <select name="tEst" id="cEst">
+                                        <optgroup label="Região Norte">
+                                            <option value="AC">Acre</option>
+                                            <option value="AP">Amapá</option>
+                                            <option value="AM">Amazonas</option>
+                                            <option value="PA">Pará</option>
+                                            <option value="TO">Tocantins</option>
+                                            <option value="RO">Rondônia</option>
+                                            <option value="RR">Roraima</option>
+                                        </optgroup>
+                                        <optgroup label="Região Nordeste">
+                                            <option value="AL">Alagoas</option>
+                                            <option value="BA">Bahia</option>
+                                            <option value="CE">Ceará</option>
+                                            <option value="MA">Maranhão</option>
+                                            <option value="PB">Paraíba</option>
+                                            <option value="PE">Pernambuco</option>
+                                            <option value="PI">Piauí</option>
+                                            <option value="RN">Rio Grande do Norte</option>
+                                            <option value="SE">Sergipe</option>
+                                        </optgroup>
+                                        <optgroup label="Região Centro-Oeste">
+                                            <option value="DF">Distrito Federal</option>
+                                            <option value="GO">Goiás</option>
+                                            <option value="MT">Mato Grosso</option>
+                                            <option value="MS">Mato Grosso do Sul</option>
+                                        </optgroup>
+                                        <optgroup label="Região Sudeste">
+                                            <option value="ES">Espírito Santo</option>
+                                            <option value="MG">Minas Gerais</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="SP">São Paulo</option>
+                                        </optgroup>
+                                        <optgroup label="Região Sul">
+                                            <option value="PR">Paraná</option>
+                                            <option value="RS">Rio Grande do Sul</option>
+                                            <option value="SC">Santa Catarina</option>
+                                        </optgroup>
+                                    </select>
+                                </label></p>
+                                <p><label for="cCid">Cidade: <input type="text" name="tCid" id="cCid" size="20" maxlength="40" placeholder="Cidade"/></label></p>
                         </fieldset>
                         
                         <fieldset id="mensagem">
                             <legend>Mensagem do Usuário</legend>
-                                Grau de Urgência:
-                                Mensagem:
+                                <p><label for="cUrg">Grau de Urgência: Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="1" />Max</label></p>
+                                <p><label for="cMsg">Mensagem: <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></label></p>
                         </fieldset>
                         
                         <fieldset id="pedido">
