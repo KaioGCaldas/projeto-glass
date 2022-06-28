@@ -22,3 +22,13 @@
     top: 75px;
     width: 440px;
 }
+
+#video-principal {
+    width: 579px;
+    margin: auto;
+}
+
+#video-aside {
+    width: 400px;
+    margin: auto;
+}
